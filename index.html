@@ -7,41 +7,120 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Notifications page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  Notifications 3
+  <div class="notifications">
+    <div class="controls">
+      <span class="notif">
+        <span class="heading">Notifications</span>
+        <span class="noti-count">3</span> 
+      </span>
+      <!-- <a href="" class="mark-read">Mark all as read</a> -->
+      <span class="mark-read">Mark all as read</span>
+    </div>
+    <div class="noti-unread">
+      <div class="avatar">
+        <img class="ava-img" src="./assets/images/avatar-mark-webber.webp">
+      </div>
+      <div class="noti-content">
+        <div class="pt1">
+          <a href="" class="name">Mark Weber</a> 
+          reacted to your recent post 
+          <a href="" class="post">My first tournament today! </a>
+          
+        </div>
+        <div class="pt2">1m ago</div>
+      </div>
+    </div>
+    <div class="noti-unread">
+      <div class="avatar">
+        <img class="ava-img" src="./assets/images/avatar-angela-gray.webp">
+      </div>
+      <div class="noti-content">
+        <div class="pt1">
+          <a href="" class="name">Angela Gray</a> 
+          followed you
+          
+        </div>
+        <div class="pt2">5m ago </div>
+      </div>
+    </div>
+    <div class="noti-unread">
+      <div class="avatar">
+        <img class="ava-img" src="./assets/images/avatar-jacob-thompson.webp">
+      </div>
+      <div class="noti-content">
+        <div class="pt1">
+          <a href="" class="name">Jacob Thompson</a> 
+          has joined your group 
+          <a href="" class="group">Chess Club</a>
+          
+        </div>
+        <div class="pt2">1 day ago</div>
+      </div>
+    </div>
+    <div class="noti-read">
+      <div class="avatar">
+        <img class="ava-img" src="./assets/images/avatar-rizky-hasanuddin.webp">
+      </div>
+      <div class="noti-content">
+        <div class="pt1">
+          <a href="" class="name">Rizky Hasanuddin</a> 
+          sent you a private message
+        </div>
+        <div class="pt2">5 days ago</div>
+        <div class="msg">
+          Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+           I'm already having lots of fun and improving my game.
+        </div>
+      </div>
+    </div>
+    <div class="noti-read">
+      <div class="avatar">
+        <img class="ava-img" src="./assets/images/avatar-kimberly-smith.webp">
+      </div>
+      <div class="noti-content">
+        <div class="pt1">
+          <a href="" class="name">Kimberly Smith</a> 
+          commented on your picture 
+        </div>
+        <div class="pt2">1 week ago</div>
+      </div>
+      <div class="noti-picture">
+        <a href="" style="width: 50px; height: 50px"><img class="picture" src="./assets/images/image-chess.webp" alt=""></a>
+      </div>
+    </div>
+    <div class="noti-read">
+      <div class="avatar">
+        <img class="ava-img" src="./assets/images/avatar-nathan-peterson.webp">
+      </div>
+      <div class="noti-content">
+        <div class="pt1">
+          <a href="" class="name">Nathan Peterson</a> 
+          reacted to your recent post 
+          <a href="" class="post">5 end-game strategies to increase your win rate</a> 
+        </div>
+        <div class="pt2">2 weeks ago</div>
+      </div>
+    </div>
+    <div class="noti-read">
+      <div class="avatar">
+        <img class="ava-img" src="./assets/images/avatar-anna-kim.webp">
+      </div>
+      <div class="noti-content">
+        <div class="pt1">
+          <a href="" class="name">Anna Kim</a> 
+          left the group
+          <a href="" class="group">Chess Club</a> 
+        </div>
+        <div class="pt2">2 weeks ago</div>
+      </div>
+    </div>
+ 
+  </div>
 
-  Mark all as read
-
-  Mark Webber reacted to your recent post My first tournament today!
-  1m ago
-
-  Angela Gray followed you
-  5m ago
-
-  Jacob Thompson has joined your group Chess Club
-  1 day ago
-
-  Rizky Hasanuddin sent you a private message
-  5 days ago
-  Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
-  I'm already having lots of fun and improving my game.
-
-  Kimberly Smith commented on your picture
-  1 week ago
-
-  Nathan Peterson reacted to your recent post 5 end-game strategies to increase your win rate
-  2 weeks ago
-
-  Anna Kim left the group Chess Club
-  2 weeks ago
-  
+  <script src="index.js"></script>
 </body>
 </html>
